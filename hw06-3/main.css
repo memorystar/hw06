@@ -1,0 +1,40 @@
+body{
+    font-size: 30px;
+}
+
+
+
+
+@media (max-width: 767px) {
+    body{
+        transition: 1s;
+        background: pink;
+        font-size: 24px;
+    }
+}
+@media (max-width: 480px) {
+    body{
+        transition: 1s;
+        background: red;
+        font-size: 16px;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    body{
+        transition: 1s;
+        background: lightgreen;
+    }
+}
+@media (min-width: 980px) {
+    body{
+        transition: 1s;
+        background: gold;
+    }
+}
+@media (min-width: 1200px) {
+    body{
+        transition: 1s;
+        background: blue;
+        font-size: 34px;
+    }
+}
